@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953603B31C9BFA0D00F58CC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603B21C9BFA0D00F58CC8 /* main.m */; };
+		953603B61C9BFA0D00F58CC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603B51C9BFA0D00F58CC8 /* AppDelegate.m */; };
+		953603BC1C9BFA0D00F58CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953603BA1C9BFA0D00F58CC8 /* Main.storyboard */; };
+		953603BF1C9BFA0D00F58CC8 /* Atapy3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 953603BD1C9BFA0D00F58CC8 /* Atapy3.xcdatamodeld */; };
+		953603C11C9BFA0D00F58CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953603C01C9BFA0D00F58CC8 /* Assets.xcassets */; };
+		953603C41C9BFA0D00F58CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953603C21C9BFA0D00F58CC8 /* LaunchScreen.storyboard */; };
+		953603CF1C9BFA0D00F58CC8 /* Atapy3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603CE1C9BFA0D00F58CC8 /* Atapy3Tests.m */; };
+		953603DA1C9BFA0D00F58CC8 /* Atapy3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603D91C9BFA0D00F58CC8 /* Atapy3UITests.m */; };
+		953603E91C9BFB0F00F58CC8 /* OnlineShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603E81C9BFB0F00F58CC8 /* OnlineShop.m */; };
+		953603EC1C9BFB2600F58CC8 /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603EB1C9BFB2600F58CC8 /* Information.m */; };
+		953603F51C9BFC6700F58CC8 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603EE1C9BFC6700F58CC8 /* Book+CoreDataProperties.m */; };
+		953603F61C9BFC6700F58CC8 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603F01C9BFC6700F58CC8 /* Book.m */; };
+		953603F71C9BFC6700F58CC8 /* Disc+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603F21C9BFC6700F58CC8 /* Disc+CoreDataProperties.m */; };
+		953603F81C9BFC6700F58CC8 /* Disc.m in Sources */ = {isa = PBXBuildFile; fileRef = 953603F41C9BFC6700F58CC8 /* Disc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		953603CB1C9BFA0D00F58CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953603A61C9BFA0D00F58CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953603AD1C9BFA0D00F58CC8;
+			remoteInfo = Atapy3;
+		};
+		953603D61C9BFA0D00F58CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953603A61C9BFA0D00F58CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953603AD1C9BFA0D00F58CC8;
+			remoteInfo = Atapy3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		953603AE1C9BFA0D00F58CC8 /* Atapy3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atapy3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953603B21C9BFA0D00F58CC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		953603B41C9BFA0D00F58CC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		953603B51C9BFA0D00F58CC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		953603BB1C9BFA0D00F58CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		953603BE1C9BFA0D00F58CC8 /* Atapy3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Atapy3.xcdatamodel; sourceTree = "<group>"; };
+		953603C01C9BFA0D00F58CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953603C31C9BFA0D00F58CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953603C51C9BFA0D00F58CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953603CA1C9BFA0D00F58CC8 /* Atapy3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Atapy3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953603CE1C9BFA0D00F58CC8 /* Atapy3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Atapy3Tests.m; sourceTree = "<group>"; };
+		953603D01C9BFA0D00F58CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953603D51C9BFA0D00F58CC8 /* Atapy3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Atapy3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953603D91C9BFA0D00F58CC8 /* Atapy3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Atapy3UITests.m; sourceTree = "<group>"; };
+		953603DB1C9BFA0D00F58CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953603E71C9BFB0F00F58CC8 /* OnlineShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineShop.h; sourceTree = "<group>"; };
+		953603E81C9BFB0F00F58CC8 /* OnlineShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineShop.m; sourceTree = "<group>"; };
+		953603EA1C9BFB2600F58CC8 /* Information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Information.h; sourceTree = "<group>"; };
+		953603EB1C9BFB2600F58CC8 /* Information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Information.m; sourceTree = "<group>"; };
+		953603ED1C9BFC6700F58CC8 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Book+CoreDataProperties.h"; path = "../Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		953603EE1C9BFC6700F58CC8 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Book+CoreDataProperties.m"; path = "../Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		953603EF1C9BFC6700F58CC8 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = ../Book.h; sourceTree = "<group>"; };
+		953603F01C9BFC6700F58CC8 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = ../Book.m; sourceTree = "<group>"; };
+		953603F11C9BFC6700F58CC8 /* Disc+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Disc+CoreDataProperties.h"; path = "../Disc+CoreDataProperties.h"; sourceTree = "<group>"; };
+		953603F21C9BFC6700F58CC8 /* Disc+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Disc+CoreDataProperties.m"; path = "../Disc+CoreDataProperties.m"; sourceTree = "<group>"; };
+		953603F31C9BFC6700F58CC8 /* Disc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Disc.h; path = ../Disc.h; sourceTree = "<group>"; };
+		953603F41C9BFC6700F58CC8 /* Disc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Disc.m; path = ../Disc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953603AB1C9BFA0D00F58CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953603C71C9BFA0D00F58CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953603D21C9BFA0D00F58CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953603A51C9BFA0D00F58CC8 = {
+			isa = PBXGroup;
+			children = (
+				953603B01C9BFA0D00F58CC8 /* Atapy3 */,
+				953603CD1C9BFA0D00F58CC8 /* Atapy3Tests */,
+				953603D81C9BFA0D00F58CC8 /* Atapy3UITests */,
+				953603AF1C9BFA0D00F58CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		953603AF1C9BFA0D00F58CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953603AE1C9BFA0D00F58CC8 /* Atapy3.app */,
+				953603CA1C9BFA0D00F58CC8 /* Atapy3Tests.xctest */,
+				953603D51C9BFA0D00F58CC8 /* Atapy3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953603B01C9BFA0D00F58CC8 /* Atapy3 */ = {
+			isa = PBXGroup;
+			children = (
+				953603F91C9BFC6C00F58CC8 /* CD */,
+				953603B41C9BFA0D00F58CC8 /* AppDelegate.h */,
+				953603B51C9BFA0D00F58CC8 /* AppDelegate.m */,
+				953603BA1C9BFA0D00F58CC8 /* Main.storyboard */,
+				953603EA1C9BFB2600F58CC8 /* Information.h */,
+				953603EB1C9BFB2600F58CC8 /* Information.m */,
+				953603E71C9BFB0F00F58CC8 /* OnlineShop.h */,
+				953603E81C9BFB0F00F58CC8 /* OnlineShop.m */,
+				953603C01C9BFA0D00F58CC8 /* Assets.xcassets */,
+				953603C21C9BFA0D00F58CC8 /* LaunchScreen.storyboard */,
+				953603C51C9BFA0D00F58CC8 /* Info.plist */,
+				953603BD1C9BFA0D00F58CC8 /* Atapy3.xcdatamodeld */,
+				953603B11C9BFA0D00F58CC8 /* Supporting Files */,
+			);
+			path = Atapy3;
+			sourceTree = "<group>";
+		};
+		953603B11C9BFA0D00F58CC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				953603B21C9BFA0D00F58CC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		953603CD1C9BFA0D00F58CC8 /* Atapy3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				953603CE1C9BFA0D00F58CC8 /* Atapy3Tests.m */,
+				953603D01C9BFA0D00F58CC8 /* Info.plist */,
+			);
+			path = Atapy3Tests;
+			sourceTree = "<group>";
+		};
+		953603D81C9BFA0D00F58CC8 /* Atapy3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				953603D91C9BFA0D00F58CC8 /* Atapy3UITests.m */,
+				953603DB1C9BFA0D00F58CC8 /* Info.plist */,
+			);
+			path = Atapy3UITests;
+			sourceTree = "<group>";
+		};
+		953603F91C9BFC6C00F58CC8 /* CD */ = {
+			isa = PBXGroup;
+			children = (
+				953603ED1C9BFC6700F58CC8 /* Book+CoreDataProperties.h */,
+				953603EE1C9BFC6700F58CC8 /* Book+CoreDataProperties.m */,
+				953603EF1C9BFC6700F58CC8 /* Book.h */,
+				953603F01C9BFC6700F58CC8 /* Book.m */,
+				953603F11C9BFC6700F58CC8 /* Disc+CoreDataProperties.h */,
+				953603F21C9BFC6700F58CC8 /* Disc+CoreDataProperties.m */,
+				953603F31C9BFC6700F58CC8 /* Disc.h */,
+				953603F41C9BFC6700F58CC8 /* Disc.m */,
+			);
+			name = CD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953603AD1C9BFA0D00F58CC8 /* Atapy3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953603DE1C9BFA0D00F58CC8 /* Build configuration list for PBXNativeTarget "Atapy3" */;
+			buildPhases = (
+				953603AA1C9BFA0D00F58CC8 /* Sources */,
+				953603AB1C9BFA0D00F58CC8 /* Frameworks */,
+				953603AC1C9BFA0D00F58CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atapy3;
+			productName = Atapy3;
+			productReference = 953603AE1C9BFA0D00F58CC8 /* Atapy3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		953603C91C9BFA0D00F58CC8 /* Atapy3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953603E11C9BFA0D00F58CC8 /* Build configuration list for PBXNativeTarget "Atapy3Tests" */;
+			buildPhases = (
+				953603C61C9BFA0D00F58CC8 /* Sources */,
+				953603C71C9BFA0D00F58CC8 /* Frameworks */,
+				953603C81C9BFA0D00F58CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953603CC1C9BFA0D00F58CC8 /* PBXTargetDependency */,
+			);
+			name = Atapy3Tests;
+			productName = Atapy3Tests;
+			productReference = 953603CA1C9BFA0D00F58CC8 /* Atapy3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		953603D41C9BFA0D00F58CC8 /* Atapy3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953603E41C9BFA0D00F58CC8 /* Build configuration list for PBXNativeTarget "Atapy3UITests" */;
+			buildPhases = (
+				953603D11C9BFA0D00F58CC8 /* Sources */,
+				953603D21C9BFA0D00F58CC8 /* Frameworks */,
+				953603D31C9BFA0D00F58CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953603D71C9BFA0D00F58CC8 /* PBXTargetDependency */,
+			);
+			name = Atapy3UITests;
+			productName = Atapy3UITests;
+			productReference = 953603D51C9BFA0D00F58CC8 /* Atapy3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953603A61C9BFA0D00F58CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nikolay;
+				TargetAttributes = {
+					953603AD1C9BFA0D00F58CC8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					953603C91C9BFA0D00F58CC8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 953603AD1C9BFA0D00F58CC8;
+					};
+					953603D41C9BFA0D00F58CC8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 953603AD1C9BFA0D00F58CC8;
+					};
+				};
+			};
+			buildConfigurationList = 953603A91C9BFA0D00F58CC8 /* Build configuration list for PBXProject "Atapy3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953603A51C9BFA0D00F58CC8;
+			productRefGroup = 953603AF1C9BFA0D00F58CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953603AD1C9BFA0D00F58CC8 /* Atapy3 */,
+				953603C91C9BFA0D00F58CC8 /* Atapy3Tests */,
+				953603D41C9BFA0D00F58CC8 /* Atapy3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953603AC1C9BFA0D00F58CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953603C41C9BFA0D00F58CC8 /* LaunchScreen.storyboard in Resources */,
+				953603C11C9BFA0D00F58CC8 /* Assets.xcassets in Resources */,
+				953603BC1C9BFA0D00F58CC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953603C81C9BFA0D00F58CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953603D31C9BFA0D00F58CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953603AA1C9BFA0D00F58CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953603EC1C9BFB2600F58CC8 /* Information.m in Sources */,
+				953603E91C9BFB0F00F58CC8 /* OnlineShop.m in Sources */,
+				953603F71C9BFC6700F58CC8 /* Disc+CoreDataProperties.m in Sources */,
+				953603F81C9BFC6700F58CC8 /* Disc.m in Sources */,
+				953603F51C9BFC6700F58CC8 /* Book+CoreDataProperties.m in Sources */,
+				953603BF1C9BFA0D00F58CC8 /* Atapy3.xcdatamodeld in Sources */,
+				953603B61C9BFA0D00F58CC8 /* AppDelegate.m in Sources */,
+				953603F61C9BFC6700F58CC8 /* Book.m in Sources */,
+				953603B31C9BFA0D00F58CC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953603C61C9BFA0D00F58CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953603CF1C9BFA0D00F58CC8 /* Atapy3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953603D11C9BFA0D00F58CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953603DA1C9BFA0D00F58CC8 /* Atapy3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		953603CC1C9BFA0D00F58CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953603AD1C9BFA0D00F58CC8 /* Atapy3 */;
+			targetProxy = 953603CB1C9BFA0D00F58CC8 /* PBXContainerItemProxy */;
+		};
+		953603D71C9BFA0D00F58CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953603AD1C9BFA0D00F58CC8 /* Atapy3 */;
+			targetProxy = 953603D61C9BFA0D00F58CC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		953603BA1C9BFA0D00F58CC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953603BB1C9BFA0D00F58CC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		953603C21C9BFA0D00F58CC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953603C31C9BFA0D00F58CC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953603DC1C9BFA0D00F58CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		953603DD1C9BFA0D00F58CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953603DF1C9BFA0D00F58CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Atapy3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.Atapy3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		953603E01C9BFA0D00F58CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Atapy3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.Atapy3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		953603E21C9BFA0D00F58CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Atapy3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.Atapy3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atapy3.app/Atapy3";
+			};
+			name = Debug;
+		};
+		953603E31C9BFA0D00F58CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Atapy3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.Atapy3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atapy3.app/Atapy3";
+			};
+			name = Release;
+		};
+		953603E51C9BFA0D00F58CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Atapy3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.Atapy3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Atapy3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		953603E61C9BFA0D00F58CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Atapy3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.Atapy3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Atapy3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953603A91C9BFA0D00F58CC8 /* Build configuration list for PBXProject "Atapy3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953603DC1C9BFA0D00F58CC8 /* Debug */,
+				953603DD1C9BFA0D00F58CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953603DE1C9BFA0D00F58CC8 /* Build configuration list for PBXNativeTarget "Atapy3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953603DF1C9BFA0D00F58CC8 /* Debug */,
+				953603E01C9BFA0D00F58CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		953603E11C9BFA0D00F58CC8 /* Build configuration list for PBXNativeTarget "Atapy3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953603E21C9BFA0D00F58CC8 /* Debug */,
+				953603E31C9BFA0D00F58CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		953603E41C9BFA0D00F58CC8 /* Build configuration list for PBXNativeTarget "Atapy3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953603E51C9BFA0D00F58CC8 /* Debug */,
+				953603E61C9BFA0D00F58CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		953603BD1C9BFA0D00F58CC8 /* Atapy3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				953603BE1C9BFA0D00F58CC8 /* Atapy3.xcdatamodel */,
+			);
+			currentVersion = 953603BE1C9BFA0D00F58CC8 /* Atapy3.xcdatamodel */;
+			path = Atapy3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 953603A61C9BFA0D00F58CC8 /* Project object */;
+}
